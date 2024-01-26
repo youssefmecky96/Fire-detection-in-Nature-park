@@ -1,13 +1,30 @@
-# Fire-detection-in-Nature-park
+# Fire Detection in Nature Parks Notebook
 
-### Problem Setting
-Fires in natural areas whether it is in a forest, natural park, or any other natural setting, is also called wildfires. Wildfires feed on natural combustion materials such as bushes, wood, and so on. Wildfires can either start due to natural reasons such as drought or in rare cases lighting but they could also occur due to human factors such as burning campfires or cigarettes. There are 3 factors that wildfire needs to grow any combustion materials natural or otherwise, oxygen and a heat source, then depending on environmental factors such as wind, the amount of fuel/combustion material near, and so on.
+## Overview
+This repository hosts a Jupyter notebook titled "Fire_Detection_In_Nature_Park_final.ipynb", dedicated to the detection and analysis of fires in nature parks. The notebook leverages data exploration, visualization, and predictive modeling to understand and anticipate wildfire events.
 
-According to this [report](https://sgp.fas.org/crs/misc/IF10244.pdf), wildfires in the US alone since 2000 have been reported to have an annual average of 70,072 burning in the process an annual average of 7.0 million acres. 
+## Contents
 
-Wildfires can cause a wide variety of issues as the amount of animal, and human lives fatalities in the process are not negligible, in addition to the effect it has on the ecosystem and biodiversity. Wildfires release a considerable amount of greenhouse gases as well that are recognized as air pollutants.
-There is agreement in the scientific community that climate change is contributing to the increased risk of wildfires and therefore would mean that wildfires would occur more frequently. Some regions take decades to recover for the ecosystem to recover from the damage caused by the wildfire.
+- **Fire detection in Nature park**: An introductory section outlining the focus and objectives of the notebook.
+- **Problem Setting**: A detailed discussion of the problem of wildfires in natural areas, covering both natural and human-induced factors. This section also includes relevant statistics and reports on the impact of wildfires.
+- **EDA (Exploratory Data Analysis)**: Comprehensive data exploration to identify patterns, trends, and insights from the wildfire data.
+- **Variables**: Explanation of the data variables used in the analysis, including geographical coordinates and temporal factors.
+- **Visualization**: Data visualization techniques used to represent the data and findings effectively.
 
-A timely response to the wildfire and correctly estimating the size and severity of the fire can be of crucial importance. 
+## Usage
 
-In this project, I attempt to use a machine learning approach to accurately predict the area affected by a wildfire using the data of the Fire-Wheather-Index (FWI) and thus responding appropriately to the fire breakouts. In the machine learning world, this problem would be considered a regression problem since the prediction variable(affected area) is continuous. 
+To use this notebook:
+1. Clone the repository to your local environment.
+2. Ensure you have Jupyter Notebook installed or access to a platform that supports Jupyter notebooks (e.g., Google Colab).
+3. Open the `Fire_Detection_In_Nature_Park_final.ipynb` file.
+4. Execute the notebook cells in order to follow the analysis and results.
+
+
+## Contributing
+
+We welcome contributions to enhance the notebook's analysis or extend its scope. For contribution guidelines, please see `CONTRIBUTING.md`.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md) - see the license file for more details.
+
